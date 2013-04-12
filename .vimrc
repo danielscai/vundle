@@ -17,4 +17,4 @@ Bundle 'pyflakes.vim'
 filetype plugin indent on     " required!
 filetype plugin on
 autocmd FileType python setlocal et sta sw=4 sts=4
-autocmd FileType python setlocal foldmethod=indent
+"autocmd FileType python setlocal foldmethod=indent

@@ -18,3 +18,9 @@ filetype plugin indent on     " required!
 filetype plugin on
 autocmd FileType python setlocal et sta sw=4 sts=4
 "autocmd FileType python setlocal foldmethod=indent
+"
+
+nmap <F3> :NERDTree  <CR>
+nmap <F4> :Tlist<CR>
+
+set mouse=a

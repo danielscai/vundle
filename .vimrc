@@ -32,5 +32,10 @@ nmap <F4> :Tlist<CR>
 map <C-l> <c-w>w
 imap <C-l> <ESC> <c-w>w
 
-set mouse=a
+"set mouse=a
 set nobackup
+color desert
+set hlsearch
+
+
+

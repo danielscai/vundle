@@ -8,9 +8,11 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'taglist.vim'
+Bundle 'Tagbar'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'snipMate'
+Bundle 'Pydiction'
 
 Bundle 'pythoncomplete'
 Bundle 'pyflakes.vim'
@@ -28,6 +30,12 @@ let Tlist_Use_Right_Window=1
 
 nmap <F3> :NERDTree  <CR>
 nmap <F4> :Tlist<CR>
+nmap <silent> <F5> :TagbarToggle<CR>
+let g:tagbar_ctags_bin = 'ctags'
+let g:tagbar_width = 30
+
+let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
+let g:pydiction_menu_height = 20 
 
 map <C-l> <c-w>w
 imap <C-l> <ESC> <c-w>w
@@ -36,6 +44,4 @@ imap <C-l> <ESC> <c-w>w
 set nobackup
 color desert
 set hlsearch
-
-
-
+set scrolloff=3 

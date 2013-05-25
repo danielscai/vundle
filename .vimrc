@@ -7,16 +7,14 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'taglist.vim'
 Bundle 'Tagbar'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'snipMate'
-Bundle 'Pydiction'
 
 Bundle 'pythoncomplete'
 Bundle 'pyflakes.vim'
-"Bundle 'Pydiction'
+Bundle 'Pydiction'
 
 filetype plugin indent on     " required!
 filetype plugin on
@@ -29,8 +27,7 @@ let Tlist_Exit_OnlyWindow=1
 let Tlist_Use_Right_Window=1 
 
 nmap <F3> :NERDTree  <CR>
-nmap <F4> :Tlist<CR>
-nmap <silent> <F5> :TagbarToggle<CR>
+nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = 'ctags'
 let g:tagbar_width = 30
 
